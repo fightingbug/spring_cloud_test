@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="user-service" />
+        <module name="commons" />
+        <module name="book-service" />
+        <module name="spring_cloud_start" />
+        <module name="borrow-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="book-service" target="1.8" />
+      <module name="borrow-service" target="1.8" />
+      <module name="commons" target="1.8" />
+      <module name="config-test" target="1.8" />
+      <module name="core-test" target="1.8" />
+      <module name="nacos-address" target="1.8" />
+      <module name="nacos-all" target="1.8" />
+      <module name="nacos-api" target="1.8" />
+      <module name="nacos-auth" target="1.8" />
+      <module name="nacos-auth-plugin" target="1.8" />
+      <module name="nacos-client" target="1.8" />
+      <module name="nacos-cmdb" target="1.8" />
+      <module name="nacos-common" target="1.8" />
+      <module name="nacos-config" target="1.8" />
+      <module name="nacos-consistency" target="1.8" />
+      <module name="nacos-console" target="1.8" />
+      <module name="nacos-contrl-plugin" target="1.8" />
+      <module name="nacos-core" target="1.8" />
+      <module name="nacos-custom-environment-plugin" target="1.8" />
+      <module name="nacos-datasource-plugin" target="1.8" />
+      <module name="nacos-distribution" target="1.8" />
+      <module name="nacos-encryption-plugin" target="1.8" />
+      <module name="nacos-example" target="1.8" />
+      <module name="nacos-istio" target="1.8" />
+      <module name="nacos-naming" target="1.8" />
+      <module name="nacos-plugin" target="1.8" />
+      <module name="nacos-plugin-default-impl" target="1.8" />
+      <module name="nacos-prometheus" target="1.8" />
+      <module name="nacos-sys" target="1.8" />
+      <module name="nacos-test" target="1.8" />
+      <module name="nacos-trace-plugin" target="1.8" />
+      <module name="naming-test" target="1.8" />
+      <module name="spring_cloud_start" target="1.8" />
+      <module name="untitled" target="1.8" />
+      <module name="untitled2" target="1.8" />
+      <module name="user-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="book-service" options="-parameters" />
+      <module name="borrow-service" options="-parameters" />
+      <module name="commons" options="-parameters" />
+      <module name="spring_cloud_start" options="-parameters" />
+      <module name="untitled" options="-parameters" />
+      <module name="untitled2" options="-parameters" />
+      <module name="user-service" options="-parameters" />
+    </option>
+  </component>
+</project>
