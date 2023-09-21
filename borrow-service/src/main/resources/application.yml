@@ -1,6 +1,6 @@
 spring:
   application:
-    name: borrowservice
+    name: borrow-service
     cloud:
       nacos:
         discovery:
@@ -8,3 +8,15 @@ spring:
       sentinel:
         transport:
           dashboard: 127.0.0.1:8858
+        block-page: /blocked
+feign:
+  sentinel:
+    enabled: true
+seata:
+  service:
+    vgroup-mapping:
+      # 这里需要对事务组做映射，默认的分组名为 应用名称-seata-service-group，将其映射到default集群
+      # 这个很关键，一定要配置对，不然会找不到服务
+      borrow-service-seata-service-group: default
+    grouplist:
+      default: localhost:7091
